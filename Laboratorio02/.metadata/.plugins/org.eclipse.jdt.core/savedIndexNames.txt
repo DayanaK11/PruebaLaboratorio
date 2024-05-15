@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\Users\pc\Desktop\FP2 Laboratorio\Laboratorio02\.metadata\.plugins\org.eclipse.jdt.core
-3290560375.index
-1865797976.index
-2002474053.index
