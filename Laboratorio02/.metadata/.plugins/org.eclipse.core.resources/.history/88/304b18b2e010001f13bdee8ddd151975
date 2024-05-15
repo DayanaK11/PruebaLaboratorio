@@ -1,0 +1,8 @@
+package actividad02;
+
+public class Principal02 {
+	final int N=10;
+	Jugador equipo [] = new Jugador [N];
+	
+	
+}
