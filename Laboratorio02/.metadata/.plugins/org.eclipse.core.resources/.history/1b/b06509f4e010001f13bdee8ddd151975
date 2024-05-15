@@ -1,0 +1,30 @@
+package actividad02;
+import java.util.*;
+
+import actividad01.Nave;
+
+public class Principal02 {
+	
+	public static void main (String []args) {
+		final int N=10;
+		Jugador equipo [] = new Jugador [N];
+		Scanner input=new Scanner(System.in);
+		
+		for(int i=0; i<equipo.length;i++) {
+			equipo[i]= new Jugador();
+			System.out.println("Ingresar Nombre");
+			equipo[i].setNombre(input.next());
+			System.out.println("Ingresar Nivel");
+			equipo[i].setNivel(input.nextInt());
+		}
+		
+		for(int i=0; i<equipo.length;i++) {
+			System.out.println("Jugador " + (i+1) );
+			System.out.println("Nombre: " + equipo[i].getNombre());
+			System.out.println("Nivel: " + equipo[i].getNivel());
+		}
+		
+		
+	}
+	
+}
